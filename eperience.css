@@ -45,3 +45,13 @@ a:hover{
     box-shadow: 0 0 10px rgb(169, 169, 205);
     border-radius: 10px;
 }
+footer{
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+footer>a{
+    text-decoration: none;
+    color: white;
+}

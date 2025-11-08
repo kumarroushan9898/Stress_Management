@@ -17,6 +17,8 @@ h1{
   left: 35%;
 }
 nav{
+    position: sticky;
+    top: 0%;
     height: 40px;
     background-color: rgb(225, 220, 220);
     display: flex;
@@ -46,6 +48,10 @@ a:hover{
     border-radius: 10px;
 }
 main{
+    display: flex;
+    justify-content:center;
+    flex-flow: end;
+    gap: 100px;
     margin: 10px;
     padding: 10px;
     background-image: url(https://c.saavncdn.com/598/Pleasant-Melodies-for-Soul-New-Age-Music-to-Relax-Good-Mood-Meditate-Inner-Peace-Pure-Mind-English-2017-20171002161052-500x500.jpg);
@@ -53,5 +59,30 @@ main{
     background-position: center;
     background-size:contain;
     background-repeat: no-repeat;
-    opacity: 0.6;
+
+}
+#c1{
+    /* display: inline; */
+    padding: 40px;
+    width: 50%;
+    color: rgb(242, 71, 9);
+    font-size: 40px;
+    /* border: 2px solid gray; */
+    border-radius: 20px;
+}
+#i1{
+}
+#i1 img{
+    width: 50%;
+    height:400px;
+}
+footer{
+    /* height: 40px; */
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+footer>a{
+    text-decoration: none;
+    color: white;
 }

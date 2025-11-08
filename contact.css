@@ -2,7 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
-
+nav{
+    position: sticky;
+    top: 10px;
+}
 .intro{
     display: grid;
     height: auto;
@@ -44,4 +47,58 @@ a:hover{
     color: brown;
     box-shadow: 0 0 10px rgb(169, 169, 205);
     border-radius: 10px;
+}
+#head h1{
+    margin: 10px 0px;
+    font-size: 60px;
+    /* display: flex;
+    justify-content: space-around; */
+    /* background-color: black; */
+    /* width: 100%; */
+}
+main{
+    height: 110vh;
+}
+
+#contact{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        #contact-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 34px 0;
+            border: 3px solid black;
+            border-radius: 15px;
+            width: 600px;
+            background-color: rgb(219, 219, 219);
+            margin-top: 80px;
+
+        }
+        #contact-box input, 
+        #contact-box textarea{
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 9px;
+            font-size: 1.1rem;
+        } 
+        #contact-box form{
+            width: 500px;
+        }
+        #contact-box label{
+            font-size: 1.3rem;
+            font-family: 'Bree Serif', serif;
+        }
+footer{
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+footer>a{
+    text-decoration: none;
+    color: white;
 }
