@@ -17,11 +17,14 @@ h1{
   left: 35%;
 }
 nav{
+    position: sticky;
+    top: 0%;
     height: 40px;
     background-color: rgb(225, 220, 220);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 1;
 }
 #logo{
     display: inline-block;
@@ -46,6 +49,9 @@ a:hover{
     border-radius: 10px;
 }
 footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
     height: 40px;
     background-color: black;
     display: flex;
@@ -55,3 +61,65 @@ footer>a{
     text-decoration: none;
     color: white;
 }
+main{
+    height: 110vh;
+} 
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.services-section {
+  padding: 60px 20px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.services-section h2 {
+  font-size: 2.2em;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.service-box {
+  background: #eaf0f7;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.service-box:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-box img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.service-box h3 {
+  margin: 10px 0;
+  color: #1a5276;
+  font-size: 1.2em;
+}
+
+.service-box p {
+  font-size: 0.95em;
+  line-height: 1.6;
+  color: #555;
+}
+
